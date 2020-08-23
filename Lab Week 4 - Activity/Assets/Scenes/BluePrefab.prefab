@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3800005957010509067}
   - component: {fileID: 60254994268525081}
   - component: {fileID: 5697496005861088274}
+  - component: {fileID: 288957394560419012}
   - component: {fileID: 8242738521378427404}
   m_Layer: 0
   m_Name: BluePrefab
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6138926213075445127}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.19124317, y: -2.37, z: 0.0040388107}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9e76a314362d63d48a50007aba502f60, type: 2}
+  - {fileID: 2100000, guid: b0f778354e8395c4d8e6f7506651d01f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80,6 +81,18 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &288957394560419012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6138926213075445127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287cbc3ce0c8fa248b589c445dd7d48a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &8242738521378427404
 SphereCollider:
   m_ObjectHideFlags: 0
