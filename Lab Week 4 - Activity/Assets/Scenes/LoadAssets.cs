@@ -24,9 +24,12 @@ public class LoadAssets : MonoBehaviour
     void Update()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Debug.Log(transform.position);
 =======
       
 >>>>>>> feature-print
+=======
+>>>>>>> feature-hide
     }
 }
